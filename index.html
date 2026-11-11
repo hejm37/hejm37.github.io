@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Jiamin He — Reinforcement Learning Researcher</title>
+  <title>Jiamin He - Reinforcement Learning Researcher</title>
   <meta name="author" content="Jiamin He">
   <meta name="description"
     content="Jiamin He is a Ph.D. student in Computing Science at the University of Alberta, researching reinforcement learning — policy optimization, off-policy learning, and representation learning.">
@@ -28,7 +28,6 @@
     content="Ph.D. student in Computing Science at the University of Alberta, researching reinforcement learning.">
   <meta name="twitter:image" content="https://hejm37.github.io/images/photo_jiamin_yeg.png">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -52,17 +51,17 @@
           </p>
 
           <p>
-            Previously, I received my M.Sc. (Thesis) degree in Computing Science at the University of Alberta under the supervision of <a href="https://armahmood.github.io/">Rupam Mahmood</a>. Before that, I also worked with <a href="https://mig-ai.github.io/person-zhangchongjie.html">Chongjie Zhang</a> as a research intern.
+            Previously, I received my M.Sc. degree in Computing Science at the University of Alberta under the supervision of <a href="https://armahmood.github.io/">Rupam Mahmood</a>. Before that, I also worked with <a href="https://mig-ai.github.io/person-zhangchongjie.html">Chongjie Zhang</a> as a research intern.
           </p>
 
           <p>
-            My research interests lie in reinforcement learning, with a focus on policy optimization, off-policy learning, and representation learning.
+            My research interests lie in online reinforcement learning, with a focus on policy optimization, off-policy learning, and temporal abstraction.
           </p>
 
           <p style="text-align:center">
-            <a href="mailto:hejm37@gmail.com">Email</a> &nbsp/&nbsp
-            <a href="https://scholar.google.ca/citations?user=hZxi1YcAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
-            <a href="https://github.com/hejm37">GitHub</a> &nbsp/&nbsp
+            <a href="mailto:hejm37@gmail.com">Email</a> &nbsp;/&nbsp;
+            <a href="https://scholar.google.ca/citations?user=hZxi1YcAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+            <a href="https://github.com/hejm37">GitHub</a> &nbsp;/&nbsp;
             <a href="http://agtsmith.com/">Blog</a>
           </p>
         </td>
@@ -76,14 +75,11 @@
   </table>
 
 
-  <hr>
-
-
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
         <td style="padding:10px;width:100%;vertical-align:middle">
-          <h2 class="section">Publications</h2>
+          <h2 class="section" id="publications">Publications</h2>
           <span style="color:grey;font-size:12px">* denotes equal contribution.</span>
         </td>
       </tr>
@@ -93,38 +89,113 @@
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="mixture-policies" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
+          <p>
+            <papertitle>Revisiting Mixture Policies in Entropy-Regularized Actor-Critic.</papertitle>
+            <br>
+            <b>Jiamin He</b>, Samuel Neumann, Jincheng Mei, Adam White, Martha White.
+            <br>
+            <em><a href="https://openreview.net/forum?id=TImqVqOQuC" class="prelim">Preliminary version at the Aligning Reinforcement Learning Experimentalists and Theorists Workshop at NeurIPS, 2025.</a></em>
+            <br>
+            <em>TMLR</em>, 2026.
+            <br>
+            <a href="https://arxiv.org/abs/2605.09157">paper</a>
+          </p>
+        </td>
+      </tr>
+
+      <tr id="excursion-policies" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
+          <p>
+            <papertitle>Off-policy Learning with Excursion Policies.</papertitle>
+            <br>
+            <b>Jiamin He</b>, Mark Rowland, Zhaohan Daniel Guo, Hado van Hasselt, Diana Borsa.
+            <br>
+            <em>NeurIPS</em>, 2026.
+            <br>
+            <a href="https://arxiv.org/abs/2611.13275">paper</a>
+          </p>
+        </td>
+      </tr>
+
+      <tr id="reward-hca" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
+          <p>
+            <papertitle>Improving Reward-Based Hindsight Credit Assignment.</papertitle>
+            <br>
+            Aditya A. Ramesh, <b>Jiamin He</b>, Jürgen Schmidhuber, Martha White.
+            <br>
+            <em><a href="https://openreview.net/forum?id=2tKj9WC9YQ" class="prelim">Preliminary version at the European Workshop on Reinforcement Learning, 2025.</a></em>
+            <br>
+            <em>RLJ</em>, 2026.
+            <br>
+            <a href="https://rlj.cs.umass.edu/2026/papers/Paper133.html">paper</a> | <a href="https://github.com/Aditya-Ramesh-10/Reward-HCA">code</a>
+          </p>
+        </td>
+      </tr>
+
+      <tr id="episodic-differential-td" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
+          <p>
+            <papertitle>Extending Differential Temporal Difference Methods for Episodic Problems.</papertitle>
+            <br>
+            Kris De Asis, Mohamed Elsayed, <b>Jiamin He</b>.
+            <br>
+            <em>RLJ</em>, 2026.
+            <br>
+            <a href="https://rlj.cs.umass.edu/2026/papers/Paper33.html">paper</a>
+             <!-- | <a href="https://github.com/">code</a> -->
+          </p>
+        </td>
+      </tr>
+
+      <tr id="forager" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
+          <p>
+            <papertitle>Forager: A Lightweight Testbed for Continual Learning with Partial Observability in RL.</papertitle>
+            <br>
+            Steven Tang, Xinze Xiong, Anna Hakhverdyan, Andrew Patterson, Jacob Adkins, <b>Jiamin He</b>, Esraa Elelimy, Parham Mohammad Panahi, Martha White, Adam White.
+            <br>
+            <em>RLJ</em>, 2026.
+            <br>
+            <a href="https://rlj.cs.umass.edu/2026/papers/Paper39.html">paper</a> | <a href="https://github.com/steventango/continual-foragax">code</a>
+          </p>
+        </td>
+      </tr>
+
+      <tr id="distributions-as-actions" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Distributions as Actions: A Unified Framework for Diverse Action Spaces.</papertitle>
             <br>
             <b>Jiamin He</b>, A. Rupam Mahmood, Martha White.
             <br>
-            <em><a href="https://openreview.net/forum?id=KWZZtAOE1I" style="color: grey;">Preliminary version at the Finding the Frame Workshop at RLC, 2025.</a></em>
+            <em><a href="https://openreview.net/forum?id=KWZZtAOE1I" class="prelim">Preliminary version at the Finding the Frame Workshop at RLC, 2025.</a></em>
             <br>
             <em>ICLR</em>, 2026.
             <br>
-            <a href="https://openreview.net/forum?id=4ol71wMPY8">paper</a> | <a href="https://github.com/hejm37/da-ac">code</a>
+            <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/898c63fee61c06aa00745769c444e2ec-Abstract-Conference.html">paper</a> | <a href="https://github.com/hejm37/da-ac">code</a>
           </p>
         </td>
       </tr>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="mirror-descent-ac" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Investigating the Utility of Mirror Descent in Off-policy Actor-Critic.</papertitle>
             <br>
             Samuel Neumann, <b>Jiamin He</b>, Adam White, Martha White.
             <br>
-            <em>RLC</em>, 2025.
+            <em>RLJ</em>, 2025.
             <br>
-            <a href="https://openreview.net/forum?id=A3RiCiOE8f">paper</a> | <a href="https://github.com/samuelfneumann/MirrorDescentRL">code</a>
+            <a href="https://rlj.cs.umass.edu/2025/papers/Paper211.html">paper</a> | <a href="https://github.com/samuelfneumann/MirrorDescentRL">code</a>
           </p>
         </td>
       </tr>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="avg" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Deep Policy Gradient Methods Without Batch Updates, Target Networks, or Replay Buffers.</papertitle>
             <br>
@@ -132,19 +203,19 @@
             <br>
             <em>NeurIPS</em>, 2024.
             <br>
-            <a href="https://openreview.net/forum?id=DX5GUwMFFb">paper</a> | <a href="https://github.com/gauthamvasan/avg">code</a>
+            <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/019ef89617d539b15ed610ce8d1b76e1-Abstract-Conference.html">paper</a> | <a href="https://github.com/gauthamvasan/avg">code</a>
           </p>
         </td>
       </tr>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="lc-etd" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Loosely Consistent Emphatic Temporal-Difference Learning.</papertitle>
             <br>
             <b>Jiamin He</b>, Fengdi Che, Yi Wan, A. Rupam Mahmood.
             <br>
-            <em><a href="https://openreview.net/forum?id=V0vLQvqCkpY" style="color: grey;">Preliminary version in the average-reward setting at the Deep RL Workshop at NeurIPS, 2022.</a></em>
+            <em><a href="https://openreview.net/forum?id=V0vLQvqCkpY" class="prelim">Preliminary version in the average-reward setting at the Deep RL Workshop at NeurIPS, 2022.</a></em>
             <br>
             <em>UAI</em>, 2023.
             <br>
@@ -153,8 +224,8 @@
         </td>
       </tr>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="emc" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Episodic Multi-agent Reinforcement Learning with Curiosity-Driven Exploration.</papertitle>
             <br>
@@ -185,14 +256,11 @@
   </table>
 
 
-  <hr>
-
-
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
         <td style="padding:10px;width:100%;vertical-align:middle">
-          <h2 class="section">Other Workshop Papers</h2>
+          <h2 class="section" id="theses">Theses</h2>
         </td>
       </tr>
     </tbody>
@@ -201,58 +269,8 @@
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
 
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <p>
-            <papertitle>Revisiting Mixture Policies in Entropy-Regularized Actor-Critic.</papertitle>
-            <br>
-            <b>Jiamin He</b>, Samuel Neumann, Jincheng Mei, Adam White, Martha White.
-            <br>
-            <em>Aligning Reinforcement Learning Experimentalists and Theorists Workshop at NeurIPS</em>, 2025.
-            <br>
-            <em>Extended version under review</em>, 2026.
-            <br>
-            <a href="https://openreview.net/forum?id=TImqVqOQuC">paper</a>
-          </p>
-        </td>
-      </tr>
-
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <p>
-            <papertitle>Improving Reward-Based Hindsight Credit Assignment.</papertitle>
-            <br>
-            Aditya A. Ramesh, <b>Jiamin He</b>, Jürgen Schmidhuber, Martha White.
-            <br>
-            <em>European Workshop on Reinforcement Learning</em>, 2025.
-            <br>
-            <a href="https://openreview.net/forum?id=2tKj9WC9YQ">paper</a>
-          </p>
-        </td>
-      </tr>
-
-    </tbody>
-  </table>
-
-
-  <hr>
-
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr>
-        <td style="padding:10px;width:100%;vertical-align:middle">
-          <h2 class="section">Theses</h2>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-
-      <tr bgcolor="#ffffff">
-        <td style="padding:20px;width:100%;vertical-align:middle">
+      <tr id="msc-thesis" bgcolor="#ffffff">
+        <td style="padding:12px 20px;width:100%;vertical-align:middle">
           <p>
             <papertitle>Consistent Emphatic Temporal-Difference Learning.</papertitle>
             <br>
@@ -260,15 +278,13 @@
             <br>
             <em>M.Sc. Thesis, University of Alberta</em>, 2023.
             <br>
-            <a href="https://era.library.ualberta.ca/items/f911bb7e-317e-424d-8b68-f8b2eae42fc2">details</a>
+            <a href="https://ualberta.scholaris.ca/items/4373a986-f8b8-4e35-a3db-cee0cb22f94f">details</a>
           </p>
         </td>
       </tr>
 
     </tbody>
   </table>
-
-  <hr>
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
